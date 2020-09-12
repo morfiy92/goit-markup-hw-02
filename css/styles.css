@@ -1,0 +1,76 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.address {
+	font-style: normal;
+}
+
+.logo-web {
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	color: #2196f3;
+}
+
+.logo-studio-black {
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.navigation-list-link {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+
+.address-tel-link,
+.address-mail-link {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail-link:hover,
+.address-mail-link:focus,
+.address-tel-link:hover,
+.address-tel-link:focus {
+	color: #2196f3;
+}
+
+.modal-btn {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	/*color: #ffffff;*/
+}
