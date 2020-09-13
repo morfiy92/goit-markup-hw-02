@@ -1,5 +1,14 @@
+:root {
+	--main-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--main-color: #212121;
+	--secondary-color: #757575;
+	--third-color: #ffffff;
+	--accent-color: #2196f3;
+}
+
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: var(--main-font);
 	font-style: normal;
 }
 
@@ -14,46 +23,43 @@ body {
 .address {
 	font-style: normal;
 }
-
+/*======== header =======*/
 .logo-web {
-	font-family: Raleway, sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.192;
 	letter-spacing: 0.03em;
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 .logo-studio-black {
-	font-family: Raleway, sans-serif;
+	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.192;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--main-color);
 }
 
 .navigation-list-link {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.143;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color: var(--main-color);
 }
 
 .address-tel-link,
 .address-mail-link {
-	font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.143;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--secondary-color);
 }
 
 .navigation-list-link:hover,
@@ -62,15 +68,143 @@ body {
 .address-mail-link:focus,
 .address-tel-link:hover,
 .address-tel-link:focus {
-	color: #2196f3;
+	color: var(--accent-color);
+}
+/*======== end header =======*/
+
+/*======= hero =======*/
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	/*color: var(--third-color);*/
 }
 
 .modal-btn {
-	font-family: Roboto, sans-serif;
+	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.87;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
 	letter-spacing: 0.06em;
+	color: var(--third-color);
+}
+/*======= end hero =======*/
+
+/*======= our advantages =======*/
+.our-advantages-subtitle {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+
+.our-advantages-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+}
+/*======= end our advantages =======*/
+
+/*======= what-are-we-doing ======*/
+.what-are-we-doing-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+}
+/*======= end what are we doing ======*/
+
+/*======= our team =======*/
+.our-team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+}
+
+.our-team-subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.188;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+}
+
+.our-team-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+}
+/*======= end our team =======*/
+
+/*======= footter address =======*/
+.address-footer-map-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
 	/*color: #ffffff;*/
 }
+
+.address-footer-mail-link,
+.address-footer-tel-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	/*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/*======= pottfolio filters =======*/
+.filters-btn:hover,
+.filters-btn:focus {
+	color: var(--third-color);
+}
+/*======= end pottfolio filters =======*/
+
+/*======= pottfolio projects =======*/
+.projects-subtitle {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--main-color);
+}
+
+.projects-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+}
+
+.filters-btn {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+}
+/*======= end pottfolio projects =======*/
